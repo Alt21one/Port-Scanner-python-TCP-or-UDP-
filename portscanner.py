@@ -74,7 +74,7 @@ def scan_udp(target_ip, port):
 open_ports = []
 
 window = tk.Tk()
-window.title("Simple Port Scanner")
+window.title("Port Scanner")
 window.geometry("500x400")
 
 Protocol = tk.Label(window, text="Enter Protocol (TCP or UDP or Both):")
